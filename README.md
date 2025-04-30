@@ -4,6 +4,12 @@ This repository converts LF to CRLF (for windows projects).
 
 #### You don't need the source code or to clone the repo. Just follow the steps below.
 
+### Step 0
+
+Set the autocrlf config to false. (Optional) Close and reopen command prompts.
+
+    git config --global core.autocrlf false
+
 ### Step 1
 
 Checking for CRLF or LF line endings on git repositories:

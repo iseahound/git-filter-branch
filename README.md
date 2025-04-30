@@ -2,6 +2,8 @@
 
 #### This repository converts LF to CRLF (for windows projects).
 
+#### You don't need the source code or to clone the repo. Just follow the steps below.
+
 ### Step 1
 
 Run the following command:

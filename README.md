@@ -4,6 +4,16 @@
 
 #### You don't need the source code or to clone the repo. Just follow the steps below.
 
+### Checking for CRLF or LF line endings
+
+For git repositories:
+
+    git ls-files --eol
+
+On Linux (or windows with file.cmd, ls.cmd, and xargs.cmd)
+
+   ls */* -R | xargs -d\\n file
+
 ### Step 1
 
 Run the following command:

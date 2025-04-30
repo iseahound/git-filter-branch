@@ -12,7 +12,7 @@ For git repositories:
 
 On Linux (or windows with file.cmd, ls.cmd, and xargs.cmd)
 
-   ls */* -R | xargs -d\\n file
+    ls */* -R | xargs -d\\n file
 
 ### Step 1
 

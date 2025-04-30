@@ -10,7 +10,7 @@ For git repositories:
 
     git ls-files --eol
 
-On Linux (or windows with file.cmd, ls.cmd, and xargs.cmd)
+On Linux (or Windows with ls.cmd and xargs.cmd)
 
     ls */* -R | xargs -d\\n file
 

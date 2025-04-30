@@ -1,12 +1,12 @@
 # git-filter-branch
 
-#### This repository converts LF to CRLF (for windows projects).
+This repository converts LF to CRLF (for windows projects).
 
 #### You don't need the source code or to clone the repo. Just follow the steps below.
 
-### Checking for CRLF or LF line endings
+### Step 1
 
-For git repositories:
+Checking for CRLF or LF line endings on git repositories:
 
     git ls-files --eol
 
@@ -14,7 +14,7 @@ On Linux (or Windows with ls.cmd and xargs.cmd)
 
     ls */* -R | xargs -d\\n file
 
-### Step 1
+### Step 2
 
 Run the following command:
 
@@ -28,7 +28,7 @@ Run the following command:
 * `--` idk. 
 * `--all` Means that this affects both tags and commits.
 
-### Step 2
+### Step 3
 
 You'll want to push tags as well after running this command. To do so use:
 

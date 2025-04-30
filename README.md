@@ -1,6 +1,8 @@
 # git-filter-branch
 
-### This repository converts LF to CRLF (for windows projects).
+#### This repository converts LF to CRLF (for windows projects).
+
+### Step 1
 
 Run the following command:
 
@@ -14,10 +16,12 @@ Run the following command:
 * `--` idk. 
 * `--all` Means that this affects both tags and commits.
 
-### Important Notes
-
-You'll need `cat` on your system. This involves installing Linux on your windows machine. I don't believe you can substitute `type` for `cat` here.
+### Step 2
 
 You'll want to push tags as well after running this command. To do so use:
 
     git push --force --all
+
+### Important Notes
+
+You'll need `cat` on your system. This involves installing Linux on your windows machine. I don't believe you can substitute `type` for `cat` here.

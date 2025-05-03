@@ -36,9 +36,12 @@ Run the following command:
 
 ### Step 3
 
-You'll want to push tags as well after running this command. To do so use:
+Push all branches
 
     git push --force --all
+
+You'll want to push tags as well after running this command. To do so use:
+    
     git push --force --tags
 
 ### Important Notes

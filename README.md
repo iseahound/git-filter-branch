@@ -39,6 +39,7 @@ Run the following command:
 You'll want to push tags as well after running this command. To do so use:
 
     git push --force --all
+    git push --force --tags
 
 ### Important Notes
 
